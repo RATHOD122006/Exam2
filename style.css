@@ -1,0 +1,63 @@
+.photo {
+    background-image: url("./background.jpeg");
+    height: 580px;
+    width: 1500px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.photo2 {
+    backdrop-filter: blur(20px);
+    border: 1px solid rgb(255, 255, 255);
+    height: 400px;
+    width: 330px;
+    margin-left: 200px;
+    overflow: auto;
+}
+
+.photo2::-webkit-scrollbar {
+    width: 0px;
+}
+
+p {
+    @font-face font-family: 'Montserrat';
+    src: url('Montserrat-BlackItalic.woff2') format('woff2'),
+        url('Montserrat-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    margin-left: 5px;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    background-attachment: fixed;
+    padding-left: 10px;
+    text-align: center;
+}
+
+button {
+    margin-left: 110px;
+    background-color: orange;
+    border-radius: 5px;
+    position: sticky;
+    top: 0px;
+}
+
+.photo2:hover {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.tr {
+    margin-left: 264px;
+}
+img{
+    position: sticky;
+    top: 25px;
+}
